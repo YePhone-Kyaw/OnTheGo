@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function NavBar() {
   return (
     <>
@@ -11,6 +13,7 @@ export default function NavBar() {
           <button className="bg-white px-10 py-5 rounded-md">
             Get A Quote
           </button>
+
           <button>
             <svg
               xmlns="http://www.w3.org/2000/svg"
