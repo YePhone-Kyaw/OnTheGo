@@ -1,6 +1,11 @@
-function Qoute() {
+"use client";
+
+import Footer from "../_components/footer";
+
+export default function Qoutepage() {
     return (
-    <main className="flex flex-col justify-center items-center min-h-screen gap-10">
+    <main>
+      <div className="flex flex-col justify-center items-center min-h-screen gap-10">
       <header className=" w-full text-white bg-black p-10 shadow-md border border-black">
         <div className="flex justify-between items-center">
         <h1> On The Go</h1>
@@ -66,9 +71,11 @@ function Qoute() {
         </div>
       <button type="button" className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-6 rounded-md border border-black text-lg mt-5">Back</button>
       </footer>
+      </div>
+      {/* <Footer /> */}
   </main>
-    );
+    )
   }
   
-  export default Qoute;
+
   
