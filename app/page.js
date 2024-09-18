@@ -1,8 +1,10 @@
 
-import LogInPage from "./pages/login/page";
+import HomePage from "./pages/home/page";
 
 export default function Home() {
   return (
-    <LogInPage />
+    <main>
+      <HomePage />
+    </main>
   );
 }
