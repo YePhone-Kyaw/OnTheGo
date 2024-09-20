@@ -12,7 +12,7 @@ export default function HomePage() {
             {/* COMPANY INTRO VIDEO SECTION */}
             <section className="relative h-screen w-full">
                 <div className="absolute top-1/4  left-10  text-start z-10">
-                    <h1 className="text-3xl text-white mb-4">
+                    <h1 className="text-3xl mb-4">
                         COMPANY  SLOGAN <br /> OR  INTRODUCTORY <br /> MESSAGE
                     </h1>
                     <Link href="../get-quote">
@@ -90,25 +90,25 @@ export default function HomePage() {
 
             {/* VIDEO TYPE SECTION */}
             <section className="mt-20 px-20">
-                <h2 className=" text-3xl font-bold text-white">TYPES OF VIDEO</h2>
+                <h2 className=" text-3xl font-bold ">TYPES OF VIDEO</h2>
                 <p className=" mt-7">We communicate the value of complex tech <br/>products with clear and simple <br/>storytelling and a touch of creative <br/> flair.</p>
             </section>
 
             {/* EXPERIENCE SECTION */}
             <section className="mt-20 px-20">
-                <h2 className=" text-3xl font-bold text-white">SECTOR OF EXPERIENCE</h2>
+                <h2 className=" text-3xl font-bold ">SECTOR OF EXPERIENCE</h2>
                 <p className=" mt-7">We communicate the value of complex tech products with clear <br/> and simple storytelling and a touch of creative flair.</p>
             </section>
 
             {/* SAMPLE WORK SECTION */}
             <section className="mt-20 px-20">
-                <h2 className=" text-3xl font-bold text-white">EXAMPLES OF WORK</h2>
+                <h2 className=" text-3xl font-bold ">EXAMPLES OF WORK</h2>
                 <p className=" mt-7">We communicate the value of complex tech products with clear <br/> and simple storytelling and a touch of creative flair.</p>
             </section>
 
             {/* METRICS SECTION */}
             <section className="mt-20 px-20">
-                <h2 className=" text-3xl font-bold text-white">DELIVERING REMARKABLE RESULTS</h2>
+                <h2 className=" text-3xl font-bold ">DELIVERING REMARKABLE RESULTS</h2>
                 <p className=" mt-7">We communicate the value of complex tech products with clear <br/> and simple storytelling and a touch of creative flair.</p>
                 <div className=" flex justify-between">
                     <div>
@@ -117,7 +117,7 @@ export default function HomePage() {
                         <div><p>An Advertising Campaign to raise <br/>awareness for a career in Higher <br/>Education.</p></div>
                         <div>
                             <Link href="">
-                            <h3 className=" font-bold text-sm mt-10 hover:text-slate-300">READ FULL CASE STUDY &rarr;</h3>
+                            <h3 className=" font-bold text-sm mt-10 hover:text-gray-600">READ FULL CASE STUDY &rarr;</h3>
                             </Link>
                         </div>
                     </div>
@@ -127,7 +127,7 @@ export default function HomePage() {
                         <div><p>An Advertising Campaign to raise <br/>awareness for a career in Higher <br/>Education.</p></div>
                         <div>
                             <Link href="">
-                            <h3 className=" font-bold text-sm mt-10 hover:text-slate-300">READ FULL CASE STUDY &rarr;</h3>
+                            <h3 className=" font-bold text-sm mt-10 hover:text-gray-600">READ FULL CASE STUDY &rarr;</h3>
                             </Link>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ export default function HomePage() {
                         <div><p>An Advertising Campaign to raise <br/>awareness for a career in Higher <br/>Education.</p></div>
                         <div>
                             <Link href="">
-                            <h3 className=" font-bold text-sm mt-10 hover:text-slate-300">READ FULL CASE STUDY &rarr;</h3>
+                            <h3 className=" font-bold text-sm mt-10 hover:text-gray-600">READ FULL CASE STUDY &rarr;</h3>
                             </Link>
                         </div>
                     </div>
@@ -146,7 +146,7 @@ export default function HomePage() {
             
             {/* PROJECT STEPS SECTION */}
             <section className="mt-20 px-20">
-            <h2 className=" text-3xl font-bold text-white">GETTING STARTED IS A BREEZE</h2>
+            <h2 className=" text-3xl font-bold ">GETTING STARTED IS A BREEZE</h2>
             <p className=" mt-7">We communicate the value of complex tech products with clear <br/>and simple storytelling and a touch of creative flair.</p>
             <div className=" flex justify-between">
                     <div>
@@ -283,4 +283,4 @@ export default function HomePage() {
             {/* Footer section */}
             <Footer/>
         </main>
-    );
+    )};
