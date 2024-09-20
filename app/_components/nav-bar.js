@@ -29,7 +29,7 @@ export default function NavBar() {
           </svg>
         </button>
         {isOpen && (
-          <div className="absolute right-0 mt-2 w-60 bg-white rounded-md shadow-lg py-1 z-20">
+          <div className="absolute right-0 mt-2 w-60 bg-white rounded-md shadow-lg py-1">
             <Link href="/pages/home" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">HOME</Link>
             <Link href="/pages/get-quote" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">GET A QUOTE</Link>
             <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">SERVICES</Link>
