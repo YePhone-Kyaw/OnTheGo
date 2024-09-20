@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function HomePage() {
     return (
-        <main>
+        <main className=" bg-white text-black">
             {/* Header section  */}
             <NavBar />
             {/* COMPANY INTRO VIDEO SECTION */}
@@ -16,7 +16,7 @@ export default function HomePage() {
                         COMPANY  SLOGAN <br /> OR  INTRODUCTORY <br /> MESSAGE
                     </h1>
                     <Link href="../get-quote">
-                        <button className="bg-orange-500 hover:bg-orange-400 text-white py-2 px-4 rounded mt-20">
+                        <button className="bg-orange-500 hover:bg-orange-400 text-white py-2 px-4 rounded mt-20 border border-black ">
                             PLAY SHOW REEL
                         </button>
                     </Link>
@@ -281,7 +281,7 @@ export default function HomePage() {
                 
             </section>
             {/* Footer section */}
-            <Footer />
+            <Footer/>
         </main>
     );
 }
