@@ -30,14 +30,14 @@ export default function NavBar() {
         </button>
         {isOpen && (
           <div className="absolute right-0 mt-2 w-60 bg-white rounded-md shadow-lg py-1 z-20">
-            <Link href="/pages/home" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">HOME</Link>
-            <Link href="/pages/get-quote" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">GET A QUOTE</Link>
+            <Link href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">HOME</Link>
+            <Link href="get-quote" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">GET A QUOTE</Link>
             <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">SERVICES</Link>
             <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">SECTORS</Link>
             <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">FREE VIDEO MARKETING PLAN</Link>
             <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">ABOUT US</Link>
             <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">CAREERS</Link>
-            <Link href="/pages/login" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">LOG IN/ SIGN UP</Link>
+            <Link href="login" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">LOG IN/ SIGN UP</Link>
             <button className="border-2 rounded-md text-left ml-5 mt-8 mb-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">CONTACT US</button>
           </div>
         )}
