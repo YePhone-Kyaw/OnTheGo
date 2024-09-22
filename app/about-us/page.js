@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState, useRef } from 'react';
-import Navbar from '../../_components/nav-bar'; 
-import Footer from '../../_components/footer'; 
+import NavBar from "@/app/_components/nav-bar";
+import Footer from "@/app/_components/footer";
 
 // IntersectionObserver for triggering animations when elements enter the viewport
 const useOnScreen = (ref) => {
@@ -38,7 +38,7 @@ const AboutUs = () => {
         <div style={{ fontFamily: 'Arial, sans-serif', lineHeight: '1.6', backgroundColor: '#FFFFFF' }}>
             
             {/* Navbar */}
-            <Navbar />
+            <NavBar /> 
 
             {/* Hero Section */}
             <section
