@@ -1,5 +1,36 @@
+"use client"; 
 
 function Quote() {
+  const onSubmit = async (event) => { // asynchronous function triggered when the form is submitted
+    event.preventDefault();     // Prevents the default form submission behavior (page reload)
+    const formData = new FormData(event.target);    // Creates a FormData object from the form being submitted
+
+    formData.append("access_key", "61ad2905-8219-4dcb-a947-d6b07670870b"); // Your access key
+
+    const object = Object.fromEntries(formData);  // Converts the FormData into a plain object
+    const json = JSON.stringify(object);  // Converts the object to a JSON string format
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {  // Sends a POST request to the Web3Forms API using fetch
+        method: "POST", // method type for request
+        headers: {
+          "Content-Type": "application/json", // Indicates that the request body is in JSON format
+          Accept: "application/json",  // Specifies that the response should be in JSON format
+        },
+        body: json,
+      }).then((res) => res.json()); // Once the request is complete, the response is converted to JSON format
+
+      if (res.success) {
+        alert("Submission successful!"); // if submission is successful it will dsplay this in pop up
+        event.target.reset(); // Clear the form
+      } else {
+        alert("Submission failed. Please try again."); // if submission is unsuccessful it will dsplay this in pop up
+      }
+    } catch (error) {
+      alert("There was an error submitting the form."); // If an error occurs during the submission (network issues)
+    }
+  };
+
     return (
     <main className="flex flex-col justify-center items-center min-h-screen gap-10">
     <div className="flex justify-center items-center w-full h-screen">
@@ -7,7 +38,7 @@ function Quote() {
         <h1 className="text-2xl text-black font-bold mb-8 flex justify-center">
           Tell Us A Bit More About You
         </h1>
-        <form>
+        <form onSubmit={onSubmit}>
           <div className="form-group mb-8 flex items-center">
             <label
               htmlFor="firstname"
