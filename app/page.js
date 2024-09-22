@@ -3,6 +3,7 @@
 import NavBar from "./_components/nav-bar";
 import Footer from "./_components/footer";
 import Link from "next/link";
+import TypeOfVideos, { ExamplesOfWork, SectorOfExperience } from "./_components/video-section";
 
 export default function Home() {
   return (
@@ -92,18 +93,40 @@ export default function Home() {
         <section className="mt-20 px-20">
             <h2 className=" text-3xl font-bold ">TYPES OF VIDEO</h2>
             <p className=" mt-7">We communicate the value of complex tech <br/>products with clear and simple <br/>storytelling and a touch of creative <br/> flair.</p>
+            <div className=" flex justify-between mt-10">
+                <TypeOfVideos type="PRMOTIONAL VIDEO" src=""/>
+                <TypeOfVideos type="CORPORATE VIDEO" src=""/>
+                <TypeOfVideos type="SOCIAL VIDEO MARKETING" src=""/>
+                
+            </div>
         </section>
 
-        {/* EXPERIENCE SECTION */}
+        {/* SECTOR OF EXPERIENCE*/}
         <section className="mt-20 px-20">
             <h2 className=" text-3xl font-bold ">SECTOR OF EXPERIENCE</h2>
             <p className=" mt-7">We communicate the value of complex tech products with clear <br/> and simple storytelling and a touch of creative flair.</p>
+            <div className=" flex justify-between mt-10">
+                <SectorOfExperience title="FASHION" src=""/>
+                <SectorOfExperience title="FOOD" src=""/>
+                <SectorOfExperience title="REAL ESTATE" src=""/>
+                
+            </div>
         </section>
 
         {/* SAMPLE WORK SECTION */}
         <section className="mt-20 px-20">
             <h2 className=" text-3xl font-bold ">EXAMPLES OF WORK</h2>
             <p className=" mt-7">We communicate the value of complex tech products with clear <br/> and simple storytelling and a touch of creative flair.</p>
+            <div className=" flex justify-between mt-10">
+            <ExamplesOfWork title="AFRICAN FASHION WEEK CALGARY" description=" FASHION RUNWAY SHOW" src=""/>
+            <ExamplesOfWork title="GOLDMARKIST" description=" MUSIC VIDEO PRODUCTION" src=""/>
+            <ExamplesOfWork title="BLACK HISTORY MONTH" description="Diversity and Inclusion" src=""/>
+            </div>
+            <div className=" flex justify-between mt-10">
+            <ExamplesOfWork title="AFRICAN FASHION WEEK CALGARY" description=" FASHION RUNWAY SHOW" src=""/>
+            <ExamplesOfWork title="GOLDMARKIST" description=" MUSIC VIDEO PRODUCTION" src=""/>
+            <ExamplesOfWork title="BLACK HISTORY MONTH" description="Diversity and Inclusion" src=""/>
+            </div>
         </section>
 
         {/* METRICS SECTION */}
