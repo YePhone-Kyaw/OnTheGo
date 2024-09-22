@@ -35,7 +35,7 @@ export default function NavBar() {
               <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">SERVICES</Link>
               <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">SECTORS</Link>
               <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">FREE VIDEO MARKETING PLAN</Link>
-              <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">ABOUT US</Link>
+              <Link href="about-us" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">ABOUT US</Link>
               <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">CAREERS</Link>
               <Link href="login" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">LOG IN/SIGN UP</Link>
               <button className="border-2 rounded-md text-left ml-5 mt-8 mb-3 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">CONTACT US</button>
