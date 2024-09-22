@@ -37,7 +37,7 @@ export default function LogIn() {
             our <b>Privacy Statement</b>
           </p>
         </div>
-        <b><p className="mt-14 text-xl">New to ONTHEGO Production?<Link href="" className="text-blue-800 underline">Create an account</Link></p></b>
+        <b><p className="mt-14 text-xl">New to ONTHEGO Production?<Link href="/pages/signup" className="text-blue-800 underline">Create an account</Link></p></b>
       </div>
     </div>
   );
