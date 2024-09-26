@@ -33,8 +33,8 @@ function Quote() {
 
     return (
     <main className="flex flex-col justify-center items-center min-h-screen gap-10">
-    <div className="flex justify-center items-center w-full h-screen">
-      <div className="w-full max-w-xl bg-white p-10 shadow-md border border-black">
+    <div className="flex justify-center items-center w-full min-h-screen pt-20">
+      <div className="w-full max-w-xl bg-white p-10 shadow-md border border-black mt-20">
         <h1 className="text-2xl text-black font-bold mb-8 flex justify-center">
           Tell Us A Bit More About You
         </h1>
