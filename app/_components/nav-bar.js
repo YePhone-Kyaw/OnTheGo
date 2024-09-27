@@ -16,7 +16,7 @@ export default function NavBar() {
   return (
     <>
        {/* Fixed NavBar with transparent background */}
-       <div className=" absolute top-0 left-0 w-full z-20 bg-black bg-opacity-60 backdrop-blur-sm text-white px-10 py-5 flex justify-between items-center">
+       <div className=" fixed top-0 left-0 w-full z-20 bg-black bg-opacity-60 backdrop-blur-sm text-white px-10 py-5 flex justify-between items-center">
         {/* Logo Section */}
         <Link href="/" className="flex items-center">
           <div className="relative w-[150px] h-[80px]">
