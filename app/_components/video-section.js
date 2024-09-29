@@ -41,7 +41,7 @@ export default function TypeOfVideos({ title, src }) {
       {isExpanded && isVisible && (
         <div className="bg-white opacity-70 h-96 w-96 absolute  z-50 p-2 overflow-y-auto">
           <h2 className=" text-xl font-bold">REVIEWS</h2>
-          <div className="min-h-64 min-w-80 overflow-y-auto">
+          <div className="h-64 w-80 overflow-y-auto">
             {
               reviews.map((value)=>{
                 return(
