@@ -1,7 +1,6 @@
 "use client"
 
 import Link from "next/link";
-import { useUserAuth } from "../config/auth_context";
 import { useState } from "react";
 import axios from "axios";
 import NavBar from "../_components/nav-bar";
@@ -20,7 +19,7 @@ export default function LogIn() {
     try {
       setLoginError("");
       await axios
-        .post("http://localhost:3006/login", {
+        .post("http://localhost:3306/login", {
           email: email,
           password: password,
         })

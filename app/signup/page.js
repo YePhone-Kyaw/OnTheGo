@@ -27,7 +27,7 @@ export default function SignUp({ onClose }) {
     }
 
     try {
-      const response = await axios.post("http://localhost:3006/register", {
+      const response = await axios.post("http://localhost:3306/register", {
         fName: firstName,
         lName: lastName,
         email: email,

@@ -8,10 +8,10 @@ app.use(express.json());
 app.use(cors());
 
 const db = mysql.createConnection({
-  user: 'root',
-  host: 'localhost',
+  user: process.env.NEXT_PUBLIC_MYSQL_USER,
+  host: process.env.NEXT_PUBLIC_MYSQL_HOST,
   password: process.env.NEXT_PUBLIC_MYSQL_PASSWORD,
-  database: 'onthegoproduction',
+  database: process.env.NEXT_PUBLIC_MYSQL_DATABASE,
 });
 
 app.post("/register", (req, res) => {
@@ -50,6 +50,6 @@ app.post("/login", (req, res) => {
   );
 });
 
-app.listen(3006, () => {
+app.listen(3306, () => {
   console.log("Running server...");
 });
