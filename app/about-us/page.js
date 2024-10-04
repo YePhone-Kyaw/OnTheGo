@@ -178,6 +178,71 @@ const AboutUs = () => {
                 </div>
             </section>
 
+</section>
+            {/* Core Values Section */}
+            <section
+                ref={valuesRef}
+                style={{
+                    padding: '5rem 2rem',
+                    backgroundColor: '#f4f4f4',
+                    color: '#000',
+                    textAlign: 'center',
+                }}
+            >
+                <h2 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '2rem' }}>Our Core Values</h2>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', gap: '2rem' }}>
+                    {[
+                        { title: 'Creativity', description: 'We value creativity and originality in every aspect of our work.' },
+                        { title: 'Customer Focus', description: 'Our clients are at the core of everything we do.' },
+                        { title: 'Innovation', description: 'Constant innovation keeps us ahead of industry trends.' },
+                    ].map((value, index) => (
+                        <div key={index} style={{ width: '300px' }}>
+                            <h3 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#f46b02' }}>{value.title}</h3>
+                            <p style={{ fontSize: '1.25rem', color: '#666' }}>{value.description}</p>
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+                        {/* Testimonials Section */}
+                        <section
+                ref={testimonialsRef}
+                style={{
+                    padding: '5rem 2rem',
+                    backgroundColor: '#ffffff',
+                    color: '#000000',
+                    textAlign: 'center',
+                    borderTop: '2px solid #f46b02',
+                }}
+            >
+                <h2 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '2rem' }}>What Our Clients Say</h2>
+                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', gap: '2rem' }}>
+                    {[
+                        {
+                            name: 'Emily Rose',
+                            feedback: 'On The Go helped bring our ideas to life with amazing creativity and professionalism.',
+                            image: 'https://via.placeholder.com/150',
+                        },
+                        {
+                            name: 'David White',
+                            feedback: 'The team went above and beyond. I was impressed with their attention to detail.',
+                            image: 'https://via.placeholder.com/150',
+                        },
+                    ].map((testimonial) => (
+                        <div key={testimonial.name} style={{ maxWidth: '300px', textAlign: 'center' }}>
+                            <img
+                                src={testimonial.image}
+                                alt={testimonial.name}
+                                style={{ width: '80px', borderRadius: '50%', marginBottom: '1rem' }}
+                            />
+                            <p style={{ fontSize: '1.25rem', fontStyle: 'italic', color: '#666' }}>"{testimonial.feedback}"</p>
+                            <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginTop: '1rem' }}>{testimonial.name}</h3>
+                        </div>
+                    ))}
+                </div>
+            </section>
+
+
             {/* Call to Action (CTA) Section */}
             <section
                 ref={ctaRef}
