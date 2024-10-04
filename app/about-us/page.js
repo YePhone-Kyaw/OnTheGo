@@ -148,6 +148,40 @@ const AboutUs = () => {
                 </p>
             </section>
 
+{/* Company Timeline */}
+            <section
+                ref={timelineRef}
+                style={{
+                    padding: '5rem 2rem',
+                    backgroundColor: '#FFFFFF',
+                    color: '#000000',
+                    borderTop: '2px solid #f46b02',
+                }}
+            >
+                <h2 style={{ textAlign: 'center', fontSize: '3rem', fontWeight: 'bold', marginBottom: '2rem' }}>Our Journey</h2>
+                <div style={{ maxWidth: '800px', margin: 'auto', position: 'relative' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '3rem' }}>
+                        <div style={{ flex: '1', paddingRight: '1rem' }}>
+                            <h3 style={{ fontSize: '1.8rem', color: '#f46b02' }}>2015</h3>
+                            <p>Founded as a small media production company.</p>
+                        </div>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '3rem' }}>
+                        <div style={{ flex: '1', paddingRight: '1rem' }}>
+                            <h3 style={{ fontSize: '1.8rem', color: '#f46b02' }}>2017</h3>
+                            <p>Produced our first award-winning documentary.</p>
+                        </div>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', marginBottom: '3rem' }}>
+                        <div style={{ flex: '1', paddingRight: '1rem' }}>
+                            <h3 style={{ fontSize: '1.8rem', color: '#f46b02' }}>2021</h3>
+                            <p>Expanded our services to international markets.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
             {/* Team Section */}
             <section
                 ref={teamRef}
