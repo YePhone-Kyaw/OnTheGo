@@ -17,7 +17,7 @@ export default function Home() {
                         VIDEO PRODUCTION TAILORED FOR SaaS/PaaS COMPANIES <br /> AND THEIR BRAND INDENTITIES
                     </h1>
                     <p>OnTheGoProduction is a comprehensive video production agency dedicated to helping SaaS brands <br /> attract new customers through innovative content and effective campaigns.</p>
-                    <Link href="../get-quote">
+                    <Link href="/">
                         <button className="bg-orange-500 hover:bg-orange-400 text-white py-2 px-4 rounded mt-20 border border-black ">
                             PLAY SHOW REEL
                         </button>
@@ -50,7 +50,7 @@ export default function Home() {
                     <p className=" mt-7">Elevate your brand with OnTheGoProduction – the trusted video production partner for SaaS companies.
                         We collaborate with dynamic startups and leading enterprises worldwide, helping them attract new customers through the power of impactful video marketing.
                         At OnTheGoProduction, we don’t settle for mediocrity – we’re here to make your brand stand out and empower you to make a difference!</p>
-                    <Link href="/pages/get-quote">
+                    <Link href="/get-quote">
                         <button type="button" className="bg-orange-500 hover:bg-orange-400 text-white py-4 px-3 rounded-md block w-2/5 border border-black mt-16">
                             GOT A PROJECT? LET’S TALK
                         </button>
@@ -84,7 +84,7 @@ export default function Home() {
 
                 </div>
                 <div className=" flex justify-center">
-                    <Link href="/pages/get-quote">
+                    <Link href="/get-quote">
                         <button type="button" className=" bg-orange-500 hover:bg-orange-400 text-white py-4 px-3 rounded-md block border border-black mt-16">
                             BOOK A CALL
                         </button>
@@ -192,7 +192,7 @@ export default function Home() {
                         <div><p>We communicate the value of <br />complex tech products with clear <br />and simple storytelling and a <br />touch of creative flair.</p></div>
                     </div>
                     <div className=" ml-80 pt-8">
-                        <Link href="">
+                        <Link href="/get-quote">
                             <button type="button" className=" bg-orange-500 hover:bg-orange-400 text-white py-4 px-3 rounded-md block border border-black mt-16">
                                 BOOK A CALL
                             </button>
@@ -203,7 +203,7 @@ export default function Home() {
 
             {/* SERVICE PROPOSAL SECTION */}
             <section className="mt-20 px-20">
-                <h2 className=" text-3xl font-bold text-white">WHY VIDEO MARKETING?</h2>
+                <h2 className=" text-3xl font-bold text-black">WHY VIDEO MARKETING?</h2>
                 <div className=" flex justify-between">
                     <div>
                         <div><h3 className=" font-bold text-xl my-10">INCREASED ENGAGEMENT</h3></div>
@@ -228,7 +228,7 @@ export default function Home() {
                         <div><p>We communicate the value of <br />complex tech products with clear <br />and simple storytelling and a <br />touch of creative flair.</p></div>
                     </div>
                     <div className=" pt-8">
-                        <Link href="">
+                        <Link href="/get-quote">
                             <button type="button" className=" bg-orange-500 hover:bg-orange-400 text-white py-4 px-3 rounded-md block border border-black mt-16 mr-28">
                                 BOOK A CALL
                             </button>
@@ -238,7 +238,7 @@ export default function Home() {
             </section>
             {/* FAQ SECTION */}
             <section className="mt-20 px-20">
-                <h2 className=" text-3xl font-bold text-white">FAQ</h2>
+                <h2 className=" text-3xl font-bold text-black">FAQ</h2>
                 <div className=" flex justify-center">
                     <div className="mr-72">
                         <details>
