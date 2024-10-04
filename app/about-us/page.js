@@ -148,7 +148,7 @@ const AboutUs = () => {
                 </p>
             </section>
 
-{/* Company Timeline */}
+            {/* Company Timeline Section */}
             <section
                 ref={timelineRef}
                 style={{
@@ -181,7 +181,6 @@ const AboutUs = () => {
                 </div>
             </section>
 
-
             {/* Team Section */}
             <section
                 ref={teamRef}
@@ -212,7 +211,6 @@ const AboutUs = () => {
                 </div>
             </section>
 
-</section>
             {/* Core Values Section */}
             <section
                 ref={valuesRef}
@@ -238,8 +236,8 @@ const AboutUs = () => {
                 </div>
             </section>
 
-                        {/* Testimonials Section */}
-                        <section
+            {/* Testimonials Section */}
+            <section
                 ref={testimonialsRef}
                 style={{
                     padding: '5rem 2rem',
@@ -275,7 +273,6 @@ const AboutUs = () => {
                     ))}
                 </div>
             </section>
-
 
             {/* Call to Action (CTA) Section */}
             <section
