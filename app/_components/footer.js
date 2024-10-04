@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <footer className="footer flex justify-between p-40 bg-black text-white">
         <div className="">
-          <p>Logo</p>
+          <img src="/projectlogo.png" alt="logo" className="w-40" />
           <p className="text-2xl pt-4">
             Turning wild imaginations into reality
           </p>

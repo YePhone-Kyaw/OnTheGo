@@ -15,7 +15,7 @@ export default function NavBar() {
 
   return (
     <>
-       {/* Fixed NavBar with transparent background */}
+       {/* NavBar with transparent background */}
        <div className="fixed top-0 left-0 w-full z-20 bg-black bg-opacity-60 backdrop-blur-sm text-white px-10 py-5 flex justify-between items-center">
         {/* Logo Section */}
         <Link href="/" className="flex items-center">
@@ -41,7 +41,7 @@ export default function NavBar() {
               className="bg-white p-1 rounded-md"
             >
               <path
-                fill="black"  // This ensures the lines are visible
+                fill="black" 
                 d="M0 96C0 78.3 14.3 64 32 64h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z"
               />
             </svg>
